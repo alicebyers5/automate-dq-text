@@ -1,10 +1,5 @@
 
-library(shiny)
-library(dplyr)
-library(readr)
-
-# Read in DQ data (this could be done in setup.R)
-dq <- read_csv("dq-text.csv")
+source("setup.R")
 
 shinyUI(fluidPage(
 

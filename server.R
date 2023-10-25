@@ -1,5 +1,6 @@
 
-library(shiny)
+source("setup.R")
+
 
 shinyServer(function(input, output) {
 
