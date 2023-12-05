@@ -17,7 +17,7 @@ shinyServer(function(input, output) {
             if(input$board == "Scotland") {
                 p("View data quality notes for each board on the Notes tab.")
             } else {
-                purrr::map(dq_filtered()$text, p)
+                map(dq_filtered()$text, p)
             }
             
         )
